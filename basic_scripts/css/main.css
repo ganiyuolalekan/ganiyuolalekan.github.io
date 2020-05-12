@@ -1,5 +1,10 @@
 body {
     background-color: #fefefe;
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand {
+    font-family: 'Roboto Slab', serif;
 }
 
 .centered {
@@ -11,7 +16,7 @@ body {
 }
 
 .name {
-    font-family: fantasy;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .bio {
@@ -32,8 +37,17 @@ body {
     list-style-type: none;
 }
 
+.un-styled li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
 .un-styled li a {
     color: #222;
+}
+
+.un-styled li a i {
+    font-size: 20px;
 }
 
 .un-styled li a:hover,
@@ -56,7 +70,7 @@ body {
 }
 
 .date {
-    font-family: cursive;
+    font-family: 'Balsamiq Sans', cursive;
     font-size: 15px;
 }
 

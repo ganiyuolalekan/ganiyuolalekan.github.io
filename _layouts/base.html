@@ -11,6 +11,18 @@
             <nav class="navbar navbar-expand-lg navbar-dark header fixed-top">
                 <a class="navbar-brand" href="javascript:void(0)">~Lex-Github-Blog~</a>
             </nav>
+
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navb">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Olalekan</a>
+                    </li>
+                </ul>
+            </div>
         </header>
 
         <main>
@@ -20,29 +32,53 @@
 
             <div class="row">
 
-                {% include _basic_author_bio.html %}
+                <div class="col-md-3 col-lg-3 non-mobile">
+                    {% include _basic_author_bio.html %}
+                </div>
 
-                <div class="col-md-9 col-lg-9">
-                    <h2>~{{ page.title }}~</h2>
+                <div class="col-md-9 col-lg-9 container">
+                    <h2>{{ page.title }}</h2>
 
                     {% for post in site.categories.blog %}
 
                         {% capture date %}{{ post.date | date: '%m %d, %Y' }}{% endcapture %}
 
-                        <article class="article">
-                            <span class="date c">{{ date }}</span>
+                        <div class="article">
+                            <span class="date c"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span>
                                 <span class="title c">
                                     <a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">
                                         {{ post.title }}
                                     </a>
                                 </span>
-                            <span class="summary c">{{ post.excerpt | strip_html | truncate: 160 }}</span>
-                        </article>
+                            <span class="summary c">{{ post.excerpt | strip_html | truncate: 200 }}</span>
+                        </div>
 
                     {% endfor %}
 
                     <footer class="centered">
                         <div class="space"></div>
+                        <ul class="un-styled">
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-google"></i>
+                                </a>
+                            </li>
+                        </ul>
                         {% include _basic_footer.html %}
                     </footer>
                 </div>
