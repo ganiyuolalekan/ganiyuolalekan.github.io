@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% include _basic_head.html %}
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark header fixed-top">
+                <a class="navbar-brand" href="javascript:void(0)">~Lex-Github-Blog~</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="space"></div>
+
+            {% include _browser-upgrade.html %}
+
+            <div class="row">
+
+                {% include _basic_author_bio.html %}
+
+                <div class="col-md-9 col-lg-9">
+                    <h2>~{{ page.title }}~</h2>
+
+                    {% for post in site.categories.blog %}
+
+                        {% capture date %}{{ post.date | date: '%m %d, %Y' }}{% endcapture %}
+
+                        <article class="article">
+                            <span class="date c">{{ date }}</span>
+                                <span class="title c">
+                                    <a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">
+                                        {{ post.title }}
+                                    </a>
+                                </span>
+                            <span class="summary c">{{ post.excerpt | strip_html | truncate: 160 }}</span>
+                        </article>
+
+                    {% endfor %}
+
+                    <footer class="centered">
+                        <div class="space"></div>
+                        {% include _basic_footer.html %}
+                    </footer>
+                </div>
+            </div>
+        </main>
+
+        {% include _basic_scripts.html %}
+
+    </body>
+
+</html>
