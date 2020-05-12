@@ -13,7 +13,7 @@ owner:
   email: ganiyuolalekanmatthew@gmail.com
   # Do not include the @ symbol in your Twitter username
   twitter: GM_Olalekan
-  linkedin: #username
+  linkedin: ganiyu-olalekan
   github: ganiyuolalekan
   researchgate: #username
   google:
@@ -21,10 +21,11 @@ owner:
     analytics:
     verify:
     scholar: #id
-  facebook: #username
+  facebook: ganiyu.olalekan
   instagram: #username
-  stackoverflow: #123456/username from a "https://stackoverflow.com/users/123456/username" link
+  stackoverflow: 11843596/ganiyu-olalekan
   youtube: #username
+  disqus-shortname: go-github.io
 
 # The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
 # you may do so in _sass/variables.scss
