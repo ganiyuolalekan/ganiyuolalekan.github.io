@@ -8,7 +8,7 @@ comments: true
 category: blog
 ---
 
-![www.bdteck.com]({{ site.github.url }}/images/intelligence.jpg)
+![www.bdteck.com]({{ site.github.url }}/images/intelligence.jpg =600x300)
 
 **What is Intelligence really?**
 
