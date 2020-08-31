@@ -25,7 +25,7 @@ Reasoning is nothing but Reckoning
 
 Intelligence for all living species is nothing but this compilation of thoughts known as reasoning to yield an objective (an aim). A much practical – and mathematical – form of reasoning is reckoning, where the abstract concepts of reasoning are converted to it’s equivalent mathematical and algorithmic form for machines. This is the form artificial systems uses to simulate intelligence through programming.
 
-<h2>How intelligence is simulated across the branches of AI:</h2>
+<h4>How intelligence is simulated across the branches of AI:</h4>
 
 <h3>Neural Networks (NNs)</h3>
 
