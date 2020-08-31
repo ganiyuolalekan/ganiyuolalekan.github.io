@@ -8,7 +8,7 @@ comments: true
 category: blog
 ---
 
-![www.bdteck.com](../images/intelligence.jpg)
+![www.bdteck.com]({{ site.github.url }}/images/intelligence.jpg)
 
 **What is Intelligence really?**
 
@@ -25,11 +25,12 @@ Creative intelligence is marked by inventing or imagining a solution to a probl
 There are actually many definitions of Intelligence. My favourite definition is that of the American researcher [Alexander D. Wissner-Gross](https://en.wikipedia.org/wiki/Alexander_Wissner-Gross)
 
 > F = T ∇ S
-"Intelligence is a force, F, that acts so as to maximize future freedom of action. It acts to maximize future freedom of action, or keep options open, with some strength T, with the diversity of possible accessible futures, S, up to some future time horizon, τ. In short, intelligence doesn't like to get trapped"
+>
+> Intelligence is a force, F, that acts so as to maximize future freedom of action. It acts to maximize future freedom of action, or keep options open, with some strength T, with the diversity of possible accessible futures, S, up to some future time horizon, τ. In short, intelligence doesn't like to get trapped
 
 Another definition I admire is that of cognitive psychologist Reuven Feuerstein [https://en.wikipedia.org/wiki/Reuven_Feuerstein]
 
-> "Intelligence is the unique propensity of human beings to change or modify the structure of their cognitive functioning to adapt to the changing demands of a life situation"
+> Intelligence is the unique propensity of human beings to change or modify the structure of their cognitive functioning to adapt to the changing demands of a life situation
 
 From the definitions and highlights above, it is reasonable to state that Intelligence is dependent on four (4) major factors:
        
