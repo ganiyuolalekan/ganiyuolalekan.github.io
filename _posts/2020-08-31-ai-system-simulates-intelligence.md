@@ -13,7 +13,7 @@ The introduction of artificial intelligence was based on the assumption that the
 
 In this article I will focus on the **compilation of thoughts** as the process known as **reasoning**, how reasoning are applied in machines and finally how the 6 branches of AI cuts off from the idea of mechanizing thoughts.
 
-In my article [what is intelligence](https://www.linkedin.com/pulse/what-intelligence-olalekan-ganiyu/), I highlighted the major factor that initiates intelligence and came to the conclusion that intelligence “is the result or outcome of acting on the compilation of thoughts based on the understanding of the environment and objective, with experience”. 
+In my article [what is intelligence](https://ganiyuolalekan.github.io/ai/what-is-intelligence?/), I highlighted the major factor that initiates intelligence and came to the conclusion that intelligence “is the result or outcome of acting on the compilation of thoughts based on the understanding of the environment and objective, with experience”. 
 
 It was also stated that intelligence is objective driven, intelligence needs experience and intelligence is built upon understanding. The working together of all this principles requires the processing of thoughts – which is the deduction of inferences or interpretations from premises.
 
