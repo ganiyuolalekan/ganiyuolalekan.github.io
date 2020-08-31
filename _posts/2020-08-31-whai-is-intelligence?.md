@@ -8,7 +8,7 @@ comments: true
 category: blog
 ---
 
-<img src="{{ site.github.url }}/images/intelligence.jpg" alt="www.bdteck.com" width="80%" height="300vh" />
+<img src="{{ site.github.url }}/images/intelligence.jpg" alt="www.bdteck.com" width="100%" height="300vh" />
 
 **What is Intelligence really?**
 
@@ -24,20 +24,34 @@ Creative intelligence is marked by inventing or imagining a solution to a probl
 
 There are actually many definitions of Intelligence. My favourite definition is that of the American researcher [Alexander D. Wissner-Gross](https://en.wikipedia.org/wiki/Alexander_Wissner-Gross)
 
+
 > F = T ∇ S
 >
-> Intelligence is a force, F, that acts so as to maximize future freedom of action. It acts to maximize future freedom of action, or keep options open, with some strength T, with the diversity of possible accessible futures, S, up to some future time horizon, τ. In short, intelligence doesn't like to get trapped
+> Intelligence is a force, F, that acts 
+> so as to maximize future freedom of action. 
+> It acts to maximize future freedom of action, 
+> or keep options open, with some strength T, 
+> with the diversity of possible accessible futures, 
+> S, up to some future time horizon, τ. In short, 
+> intelligence doesn't like to get trapped
 
 Another definition I admire is that of cognitive psychologist Reuven Feuerstein [https://en.wikipedia.org/wiki/Reuven_Feuerstein]
 
-> Intelligence is the unique propensity of human beings to change or modify the structure of their cognitive functioning to adapt to the changing demands of a life situation
+
+> Intelligence is the unique propensity 
+> of human beings to change or modify 
+> the structure of their cognitive functioning 
+> to adapt to the changing demands of a life situation
 
 From the definitions and highlights above, it is reasonable to state that Intelligence is dependent on four (4) major factors:
        
-    1. The environment: This is the field, situation or problem an agent is faced with.
-    2. The objective or aim: This is the end goal. That is, what the end of Intelligence is suppose to yield.
-    3. The experience: This is a result of an agents constant interaction with an environment.
-    4. The underlying understanding: This is the comprehension of the underlying component of the environment.
+1. **The environment**: This is the field, situation or problem an agent is faced with.
+    
+2. **The objective or aim**: This is the end goal. That is, what the end of Intelligence is suppose to yield.
+    
+3. **The experience**: This is a result of an agents constant interaction with an environment.
+    
+4. **The underlying understanding**: This is the comprehension of the underlying component of the environment.
        
 Thus it is save to conclude that _Intelligence is the result or outcome of acting on the compilation of thoughts based on the understanding of the environment and objective, with experience._
 
