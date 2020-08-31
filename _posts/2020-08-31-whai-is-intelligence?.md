@@ -8,7 +8,7 @@ comments: true
 category: blog
 ---
 
-<img src="{{ site.github.url }}/images/intelligence.jpg" alt="www.bdteck.com" width="100%" height="300px" />
+<img src="{{ site.github.url }}/images/intelligence.jpg" alt="www.bdteck.com" width="80%" height="300vh" />
 
 **What is Intelligence really?**
 
