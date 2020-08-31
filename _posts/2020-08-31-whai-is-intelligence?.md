@@ -5,9 +5,8 @@ excerpt: "Walking through intelligence"
 share: true
 tags: [artificial_intelligence, intelligence]
 comments: true
-category: blog
+category: ai
 ---
-
 <img src="{{ site.github.url }}/images/intelligence.jpg" alt="www.bdteck.com" width="100%" height="300vh" />
 
 **What is Intelligence really?**
@@ -33,7 +32,7 @@ Intelligence is a force, F, that acts so as to maximize future freedom of action
 <cite>Alexander D. Wissner-Gross</cite>
 </blockquote>
 
-Another definition I admire is that of cognitive psychologist Reuven Feuerstein [https://en.wikipedia.org/wiki/Reuven_Feuerstein]
+Another definition I admire is that of cognitive psychologist [Reuven Feuerstein](https://en.wikipedia.org/wiki/Reuven_Feuerstein)
 
 
 <blockquote>
@@ -56,4 +55,4 @@ Thus it is save to conclude that _Intelligence is the result or outcome of actin
 
 ----------------------------------------------------------------------
 
-This writeup was originally published on my [linkedin](https://www.linkedin.com/pulse/what-intelligence-olalekan-ganiyu/) account.
+This writeup was originally published on my [Linkedin](https://www.linkedin.com/pulse/what-intelligence-olalekan-ganiyu/) Account.

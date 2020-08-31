@@ -14,7 +14,7 @@ The **linear regression algorithm** is a linear approach to modeling the relatio
 
 The Linear Regression is one of the most basic and popular machine learning algorithm you will come across in your pursuit of a career as a data scientist or a machine learning engineer. It is intuitive and has a good range of uses and it's pretty straight forward and easy to understand.
 
-<img src="{{ site.github.url }}/images/lin_r.png" alt="Linear Regression Description" width="600px" height="300px" />
+<img src="{{ site.github.url }}/images/lin_r.png" alt="Linear Regression Description" width="100%" height="300vh" />
 
 So what problem does linear regression solve? Well when the target variable we're trying to predict is continuous, then such learning problem is a regression problem, thus the linear regression algorithm is used to solve continuous problems.
 
