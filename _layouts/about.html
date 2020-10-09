@@ -19,7 +19,11 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4" id="profile">
                         <br>
-                        <img src="{{ author.image }}" class="img-circle" alt="Missing Image" width="200px">
+                        {% if author.avatar contains 'http' %}
+                            <img src="{{ author.avatar }}" class="img-circle" alt="Missing Image" width="150px">
+                        {% else %}
+                            <img src="{{ site.github.url }}/images/{{ author.avatar }}" class="img-circle" alt="Missing Image" width="150px">
+                        {% endif %}
                         <br><br>
                     </div>
                     <div class="col-lg-8 col-md-8">
