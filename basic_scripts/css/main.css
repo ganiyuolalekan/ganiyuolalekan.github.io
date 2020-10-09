@@ -50,6 +50,20 @@ body {
     font-size: 20px;
 }
 
+#profile {
+    text-align: center;
+}
+
+.field {
+    margin-top: 20px;
+}
+
+.img-circle {
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+}
+
 .un-styled li a:hover,
 .un-styled li a:visited,
 .card-link {

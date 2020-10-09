@@ -3,8 +3,14 @@
 - title: Blog
   url: /
 
-- title: AI
+- title: Artificial Intelligence
   url: /ai/
+
+- title: Neural Networks
+  url: /nn/
+
+- title: Tutorials
+  url: /tutorials/
 
 - title: About
   url: /about/

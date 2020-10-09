@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% include _basic_head.html %}
+    </head>
+
+    <body>
+
+        {% include _header.html %}
+
+        <main>
+            <div class="space"></div>
+
+            {% include _browser-upgrade.html %}
+
+            <div class="row">
+
+                <div class="col-md-3 col-lg-3 non-mobile">
+                    {% include _basic_author_bio.html %}
+                </div>
+
+                <div class="col-md-9 col-lg-9 container">
+                    <h2 class="on-mobile">{{ page.title }}</h2>
+
+                    {% for post in site.categories.{{ page.category }} %}
+
+                        {% capture date %}{{ post.date | date: '%m %d, %Y' }}{% endcapture %}
+
+                        <div class="article">
+                            <span class="date c"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span>
+                                <span class="title c">
+                                    <a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">
+                                        {{ post.title }}
+                                    </a>
+                                </span>
+                            <span class="summary c">{{ post.excerpt | strip_html | truncate: 200 }}</span>
+                        </div>
+
+                    {% endfor %}
+
+                    <footer class="centered">
+                        <div class="space"></div>
+                        {% include _basic_footer.html %}
+                    </footer>
+                </div>
+            </div>
+        </main>
+
+        {% include _basic_scripts.html %}
+
+    </body>
+
+</html>

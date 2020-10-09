@@ -9,6 +9,7 @@ theme: jekyll-theme-cayman
 owner:
   name: Ganiyu Olalekan
   avatar: bio-photo.jpeg
+  my_image: profile.jpg
   bio: "Learner & Reader | Full Stack Web-Developer | Pythonista | AI Enthusiast & Researcher"
   email: ganiyuolalekanmatthew@gmail.com
   # Do not include the @ symbol in your Twitter username
