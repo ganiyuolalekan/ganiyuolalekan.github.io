@@ -5,7 +5,7 @@ excerpt: "what are AI systems and how they simulate intelligence"
 share: true
 tags: [artificial_intelligence, intelligence, machine_learning, natural_language_processing, expert_systems, fuzzy_logic, neural_networks, robotics]
 comments: true
-category: ai
+category: blog
 ---
 <img src="{{ site.github.url }}/images/ai_brain.gif" alt="BBC" width="100%" height="300vh" />
 

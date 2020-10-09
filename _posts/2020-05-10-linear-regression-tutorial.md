@@ -5,7 +5,7 @@ excerpt: "Python Implementation of the Linear Regression Algorithm"
 share: true
 tags: [python, linear_regression, machine_learning, tutorial]
 comments: true
-category: tutorial
+category: blog
 ---
 
 ## The Linear Regression Algorithm

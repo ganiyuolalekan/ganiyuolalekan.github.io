@@ -5,7 +5,7 @@ excerpt: "Walking through intelligence"
 share: true
 tags: [artificial_intelligence, intelligence]
 comments: true
-category: ai
+category: blog
 ---
 <img src="{{ site.github.url }}/images/intelligence.jpg" alt="www.bdteck.com" width="100%" height="300vh" />
 
