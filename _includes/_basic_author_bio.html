@@ -5,10 +5,10 @@
 <div itemscope itemtype="https://schema.org/Person">
 
     <div class="centered">
-        {% if author.my_image contains 'http' %}
-            <img src="{{ author.my_image }}" class="img-circle" alt="Missing Image" width="150px">
+        {% if author.avatar contains 'http' %}
+            <img src="{{ author.avatar }}" class="img-circle" alt="Missing Image" width="150px">
         {% else %}
-            <img src="{{ site.github.url }}/images/{{ author.my_image }}" class="img-circle" alt="Missing Image" width="150px">
+            <img src="{{ site.github.url }}/images/{{ author.avatar }}" class="img-circle" alt="Missing Image" width="150px">
         {% endif %}
 
         <h4 itemprop="name" class="name">{{ author.name }}</h4>

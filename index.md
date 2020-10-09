@@ -1,4 +1,4 @@
 ---
 layout: base
-title: All Blog Categories
+title: All Blog Posts
 ---
